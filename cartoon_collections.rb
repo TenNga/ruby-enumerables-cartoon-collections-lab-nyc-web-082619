@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarfName)
   name = []
   name = dwarfName.sort_by { |name| name.length }
-  name
+  name.map(1) { |number,name| puts /number+ ". *" + name 
 end
 
 def summon_captain_planet# code an argument here
