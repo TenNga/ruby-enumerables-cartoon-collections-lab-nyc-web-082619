@@ -8,6 +8,7 @@ end
 
 def long_planeteer_calls(short_words)
   short_words.each { |word| return true if word.length > 4 } 
+  return false 
 end
 
 def find_the_cheese# code an argument here
