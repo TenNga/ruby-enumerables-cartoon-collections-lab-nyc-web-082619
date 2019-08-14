@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarfName)
   name = []
   name = dwarfName.sort_by { |name| name.length }
-  name.each { |name| puts name }
+  name
 end
 
 def summon_captain_planet# code an argument here
