@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarfName)
+  dwarfName.sort_by { |name| name.length }
   
 end
 
